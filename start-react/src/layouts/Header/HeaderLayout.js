@@ -14,14 +14,14 @@ const menu = (
 class HeaderLayout extends Component {
     render() {
         return (
-            <Header style={{ position: 'fixed', width: '100%' }}>
-                <div style={{ float: 'right' }}>
+            <Header style={{ position: 'fixed', width: '100%', zIndex:999, height:'50px' }}>
+                <div style={{ float: 'right', marginTop: '-8px' }}>
                     <Dropdown overlay={menu} >
                         <a className="ant-dropdown-link" href="#">
                             王拉拉 <Icon type="down" />
                         </a>
                     </Dropdown>
-                    <a href="#" style={{ marginLeft: '20px' }}>退出</a>
+                    <a href="#" style={{ marginLeft: '30px' }}>退出</a>
                 </div>
             </Header>
         )

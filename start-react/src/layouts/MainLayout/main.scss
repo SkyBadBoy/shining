@@ -1,0 +1,14 @@
+.menu-container{
+  margin-top: 50px;
+  height: 100vh;
+
+  .main-left {
+    background: #000C17;
+    overflow: auto;
+    height: calc(100vh - 50px);
+  }
+  .main-right {
+    overflow: auto;
+    height: calc(100vh - 50px);
+  }
+}
