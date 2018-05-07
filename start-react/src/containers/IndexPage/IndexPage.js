@@ -7,7 +7,11 @@ const { Header, Content, Footer } = Layout;
 
 
 class IndexPage extends Component {
+
+
+
     render() {
+
         return (
             <MainLayout>
                 <List/>

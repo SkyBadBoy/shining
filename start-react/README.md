@@ -31,3 +31,9 @@
 - 装饰器
     - 安装 npm install babel-plugin-transform-decorators-legacy
     - 配置 在Package.json 加上 plugins 配置
+    
+- axios 相关配置
+
+- react-router-dom 相关使用
+
+- redux 相关配置
